@@ -1,12 +1,12 @@
 
 <br>
    <div class="p-6 max-w-xl mx-auto bg-gray-100 shadow-lg rounded-lg">
-    <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Add Car</h2>
+    <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">{{ 'addCar' | translate }}</h2>
   
     <form (ngSubmit)="submit()" #carForm="ngForm" class="space-y-6">
       <!-- License Plate Input -->
       <div>
-        <label for="licensePlate" class="block text-sm font-semibold text-gray-800">License Plate</label>
+        <label for="licensePlate" class="block text-sm font-semibold text-gray-800">{{ 'licensePlate' | translate }}</label>
         <input
           type="text"
           name="licensePlate"
@@ -19,7 +19,7 @@
   
       <!-- Car Model Input -->
       <div>
-        <label for="model" class="block text-sm font-semibold text-gray-800">Car Model</label>
+        <label for="model" class="block text-sm font-semibold text-gray-800">{{ 'carModel' | translate }}</label>
         <input
           type="text"
           name="model"

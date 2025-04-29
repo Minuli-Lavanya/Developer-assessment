@@ -3,11 +3,12 @@ import { CarService } from '../../services/car.service';
 import { JobService } from '../../services/job.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common'; 
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-manage-jobs',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, TranslateModule],
   templateUrl: './manage-jobs.component.html',
   styleUrl: './manage-jobs.component.scss'
 })

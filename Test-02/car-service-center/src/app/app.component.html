@@ -1,14 +1,15 @@
+
 <nav class="flex items-center justify-between p-4 bg-gray-800 text-white">
-  <div class="text-xl font-bold">Car Service Center</div>
+  <div class="text-xl font-bold">{{ 'car service center' | translate }}</div>
   <div class="flex gap-4">
-    <a routerLink="/" routerLinkActive="font-bold" class="hover:underline">Dashboard</a>
-    <a routerLink="/add-car" routerLinkActive="font-bold" class="hover:underline">Add Car</a>
-    <a routerLink="/manage-jobs" routerLinkActive="font-bold" class="hover:underline">Manage Jobs</a>
-    <!-- <select (change)="switchLanguage($event.target.value)" class="bg-gray-700 text-white p-1 rounded">
-      <option value="en">EN</option>
-      <option value="si">සිං</option>
-    </select> -->
+    <a routerLink="/" routerLinkActive="font-bold" class="hover:underline">{{ 'dashboard' | translate }}</a>
+    <a routerLink="/add-car" routerLinkActive="font-bold" class="hover:underline">{{ 'addCar' | translate }}</a>
+    <a routerLink="/manage-jobs" routerLinkActive="font-bold" class="hover:underline">{{ 'manageJobs' | translate }}</a>
+    <select (change)="onLanguageChange($event)" class="bg-gray-700 text-white p-2 rounded">
+      <option value="en">English</option>
+      <option value="si">සිංහල</option>
+    </select>
+  
   </div>
 </nav>
-
 <router-outlet></router-outlet>

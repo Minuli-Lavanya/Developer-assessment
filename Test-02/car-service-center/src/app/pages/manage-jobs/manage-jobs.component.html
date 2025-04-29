@@ -1,9 +1,9 @@
 <div class="p-6">
-    <h2 class="text-2xl font-bold mb-4 text-gray-800">Manage Jobs</h2>
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">{{ 'manageJobs' | translate }}</h2>
   
     <form (ngSubmit)="submit()" #jobForm="ngForm" class="mb-4 flex gap-2 flex-wrap">
       <select [(ngModel)]="job.carId" name="carId" required class="p-2 border rounded w-full md:w-auto">
-        <option value="" disabled selected>Select Car</option>
+        <option value="" disabled selected>{{ 'selectCar' | translate }}</option>
         <option *ngFor="let car of cars" [value]="car._id">
           {{ car.licensePlate }} - {{ car.model }}
         </option>
@@ -13,21 +13,21 @@
         name="description"
         [(ngModel)]="job.description"
         required
-        placeholder="Job Description"
+        placeholder="{{ 'jobDescription' | translate }}"
         class="p-2 border rounded w-full md:w-auto"
       />
       <button type="submit" [disabled]="!jobForm.form.valid" class="bg-blue-600 text-white px-4 py-2 rounded">
-        Add Job
+        {{ 'addJob' | translate }}
       </button>
     </form>
   
     <table class="w-full text-left border">
       <thead>
         <tr class="bg-gray-100">
-          <th class="p-2">Car</th>
-          <th class="p-2">Description</th>
-          <th class="p-2">Status</th>
-          <th class="p-2">Update</th>
+          <th class="p-2">{{ 'car' | translate }}</th>
+          <th class="p-2">{{ 'description' | translate }}</th>
+          <th class="p-2">{{ 'status' | translate }}</th>
+          <th class="p-2">{{ 'update' | translate }}</th>
         </tr>
       </thead>
       <tbody>

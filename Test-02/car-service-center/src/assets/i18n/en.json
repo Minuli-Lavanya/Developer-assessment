@@ -1,0 +1,24 @@
+{
+    "dashboard": "Dashboard",
+    "addCar": "Add Car",
+    "manageJobs": "Manage Jobs",
+    "totalCars": "Total Cars",
+    "pendingJobs": "Pending Jobs",
+    "completedJobs": "Completed Jobs",
+    "addCarTitle": "Add Car",
+    "licensePlate": "License Plate",
+    "carModel": "Car Model",
+    "submit": "Submit",
+    "manageJobsTitle": "Manage Jobs",
+    "selectCar": "Select Car",
+    "jobDescription": "Job Description",
+    "addJob": "Add Job",
+    "statusPending": "Pending",
+    "statusInProgress": "In Progress",
+    "statusCompleted": "Completed",
+    "car": "Car",
+    "description": "Description",
+    "status": "Status",
+    "update": "Update"
+  }
+  

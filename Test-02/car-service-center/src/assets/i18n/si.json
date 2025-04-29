@@ -1,0 +1,25 @@
+{
+    "dashboard": "උපකරණ පුවරුව",
+    "addCar": "රථයක් එක් කරන්න",
+    "manageJobs": "ක්‍රියාකාරකම් කළමනාකරණය",
+    "car service center":"කාර් සේවා මධ්යස්ථානය",
+    "totalCars": "මුළු රථ ගණන",
+    "pendingJobs": "නව ක්‍රියා",
+    "completedJobs": "අවසන් කළ ක්‍රියා",
+    "addCarTitle": "රථයක් එක් කරන්න",
+    "licensePlate": "බලපත්ර තහඩුව",
+    "carModel": "කාර් මාදිලියේ වර්ගය",
+    "submit": "ඇතුළත් කරන්න",
+    "manageJobsTitle": "ක්‍රියාකාරකම් කළමනාකරණය",
+    "selectCar": "රථය තෝරන්න",
+    "jobDescription": "කාර්ය විස්තරය",
+    "addJob": "කාර්යයක් එක් කරන්න",
+    "statusPending": "අපේක්ෂිතයි",
+    "statusInProgress": "ප්‍රගතියේ",
+    "statusCompleted": "අවසන් විය",
+    "car": "මෝටර් රථය",
+    "description": "විස්තරය",
+    "status": "තත්ත්වය",
+    "update": "යාවත්කාලීන"
+  }
+  
