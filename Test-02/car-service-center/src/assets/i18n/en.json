@@ -2,6 +2,7 @@
     "dashboard": "Dashboard",
     "addCar": "Add Car",
     "manageJobs": "Manage Jobs",
+    "car service center":"Car Service Center",
     "totalCars": "Total Cars",
     "pendingJobs": "Pending Jobs",
     "completedJobs": "Completed Jobs",
