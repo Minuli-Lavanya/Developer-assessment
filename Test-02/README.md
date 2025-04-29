@@ -35,8 +35,11 @@ A modern, responsive web application for managing car service center operations.
 Backend Setup (Node.js + Express)
 
 -cd backend
+
 -npm install
+
 -npm run start
+
 -Runs on http://localhost:5000
 
 
