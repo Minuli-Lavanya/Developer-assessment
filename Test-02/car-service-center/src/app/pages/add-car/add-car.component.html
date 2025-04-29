@@ -4,7 +4,7 @@
     <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">{{ 'addCar' | translate }}</h2>
   
     <form (ngSubmit)="submit()" #carForm="ngForm" class="space-y-6">
-      <!-- License Plate Input -->
+     
       <div>
         <label for="licensePlate" class="block text-sm font-semibold text-gray-800">{{ 'licensePlate' | translate }}</label>
         <input
@@ -16,8 +16,7 @@
           class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-200"
         />
       </div>
-  
-      <!-- Car Model Input -->
+     
       <div>
         <label for="model" class="block text-sm font-semibold text-gray-800">{{ 'carModel' | translate }}</label>
         <input
@@ -30,13 +29,12 @@
         />
       </div>
   
-      <!-- Submit Button -->
       <button
         type="submit"
         [disabled]="!carForm.form.valid"
         class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200 disabled:bg-blue-300 disabled:cursor-not-allowed"
       >
-        Add Car
+      {{ 'addCar' | translate }}
       </button>
     </form>
   </div>
